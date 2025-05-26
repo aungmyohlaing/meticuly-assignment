@@ -20,7 +20,7 @@ The system is built as a monorepo containing:
   - Verification via phone number
 - Customer list dashboard
 
-🗃️ Duplicate Detection (new section)
+---
 
 ## 🔍 Duplicate Detection
 
