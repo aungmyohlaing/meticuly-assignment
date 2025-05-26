@@ -73,27 +73,28 @@ NUXT_PUBLIC_API_BASE=http://localhost:3001/api
 
 ### 3.Install Dependencies
 
-# Backend
+## Backend
 cd backend
 npm install
 
-# Frontend
+## Frontend
 cd ../frontend
 npm install
 
 ---
 
 ### 4.Run the Project (Dev Mode)
-## Start Backend
+### Start Backend
 cd backend
 npm run dev
 
-## Start Frontend
+### Start Frontend
 cd ../frontend
 npm run dev
 
 Visit the frontend at: http://localhost:3000
 
+---
 
 🧪 Scripts
 | Location  | Command         | Description                |
@@ -103,24 +104,31 @@ Visit the frontend at: http://localhost:3000
 | backend/  | `npm run build` | Build production server    |
 | frontend/ | `npm run build` | Build Nuxt frontend        |
 
+---
 
 🗃️ Database
-Uses PostgreSQL
-Sequelize handles migrations and models
-Add a .env with your DATABASE_URL to connect
+- Uses PostgreSQL
+- Sequelize handles migrations and models
+- Add a .env with your DATABASE_URL to connect
 
+
+---
 
 👨‍💻 Technologies Used
 - **Frontend:** Nuxt 3, Vue 3, Tailwind CSS, Pinia, TypeScript
 - **Backend:** Node.js, Express, Sequelize, PostgreSQL, Fuse.js
 - **Tools:** Monorepo structure, RESTful API, dotenv
 
+---
+
 📌 Notes
 This is a demo version and not yet production-hardened.
 
 For deployment, both frontend and backend can be containerized or deployed on separate droplets/instances.
 
+---
+
 📫 Contact
-For any questions, please contact:
-Your Aung – amhlaing@gmail.com
+- For any questions, please contact:
+- Your Aung – amhlaing@gmail.com
 
