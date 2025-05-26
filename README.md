@@ -66,7 +66,7 @@ JWT_SECRET=your_secrect
 DATABASE_URL=postgres://user:password@localhost:5432/your_db
 
 🌐 frontend/.env
-NUXT_PUBLIC_API_BASE=http://localhost:3001/api
+API_BASE=http://localhost:4000/api
 
 ```
 ---
@@ -115,7 +115,7 @@ Visit the frontend at: http://localhost:3000
 ---
 
 👨‍💻 Technologies Used
-- **Frontend:** Nuxt 3, Vue 3, Tailwind CSS, Pinia, TypeScript
+- **Frontend:** Nuxt 3, Vue 3, Tailwind CSS, TypeScript
 - **Backend:** Node.js, Express, Sequelize, PostgreSQL, Fuse.js
 - **Tools:** Monorepo structure, RESTful API, dotenv
 
@@ -130,5 +130,5 @@ For deployment, both frontend and backend can be containerized or deployed on se
 
 📫 Contact
 - For any questions, please contact:
-- Your Aung – amhlaing@gmail.com
+- Aung – amhlaing@gmail.com
 
