@@ -1,0 +1,36 @@
+# Node modules inside subfolders
+backend/node_modules/
+frontend/node_modules/
+
+# Environment files
+backend/.env
+frontend/.env
+.env
+
+# Build output
+backend/dist/
+frontend/.nuxt/
+frontend/dist/
+
+# Logs
+*.log
+backend/logs/
+frontend/logs/
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE settings
+.vscode/
+.idea/
+
+# Cache
+backend/.cache/
+frontend/.cache/
+
+# Nuxt or Vue related
+frontend/.output/
+
+# Misc
+*.local
