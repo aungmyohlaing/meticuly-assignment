@@ -36,12 +36,13 @@ This helps reduce human errors caused by typos and inconsistent spelling.
 
 ## 🗂️ Monorepo Structure
 
+```
 .
 ├── backend/ # Node.js REST API
 ├── frontend/ # Nuxt 3 admin interface
 ├── .gitignore
 └── README.md
-
+```
 ---
 
 ## 🚀 Getting Started
