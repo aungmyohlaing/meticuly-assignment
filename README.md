@@ -81,21 +81,37 @@ cd backend
 npm install
 
 ## Frontend
-cd ../frontend
+cd frontend
 npm install
 
 ---
 
-### 4.Run the Project (Dev Mode)
+### 4.Setup Database & Run Sequelize command
+- create manually PostgreSQL database
+- run npx sequeilze-cli db:migrate to create tables in DB
+- run npx sequelize-cli db:seed:all to create users in Users table
+
+---
+
+### 5.Run the Project (Dev Mode)
 ### Start Backend
 cd backend
 npm run dev
 
 ### Start Frontend
-cd ../frontend
+cd frontend
 npm run dev
 
 Visit the frontend at: http://localhost:3000
+
+### Demo Login Account
+Admin User
+admin@meticuly.com
+admin123
+
+Regular User
+john_doe@meticuly.com
+john123
 
 ---
 
@@ -104,8 +120,6 @@ Visit the frontend at: http://localhost:3000
 | --------- | --------------- | -------------------------- |
 | backend/  | `npm run dev`   | Start backend with nodemon |
 | frontend/ | `npm run dev`   | Run Nuxt 3 dev server      |
-| backend/  | `npm run build` | Build production server    |
-| frontend/ | `npm run build` | Build Nuxt frontend        |
 
 ---
 
@@ -126,7 +140,6 @@ Visit the frontend at: http://localhost:3000
 
 📌 Notes
 This is a demo version and not yet production-hardened.
-
 For deployment, both frontend and backend can be containerized or deployed on separate droplets/instances.
 
 ---
