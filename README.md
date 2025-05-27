@@ -10,7 +10,9 @@ The system is built as a monorepo containing:
 
 ## 🧩 Features
 
-- Admin login system
+- Login system
+  - User Role checking
+  - Only Admin user can create or delete Customers
 - Customer entry form with:
   - First name, Last name
   - Phone number, Email

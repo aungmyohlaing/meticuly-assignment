@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-gray-100">
+  <div class="min-h-screen bg-gray-100 flex flex-col">
     <!-- Navigation -->
     <nav class="bg-primary shadow">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -22,7 +22,23 @@
     </nav>
 
     <!-- Page Content -->
-    <slot />
+    <main class="flex-grow">
+      <slot />
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white py-6 h-40 mt-auto">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col justify-center items-center mt-5">
+          <div class="text-sm">
+            <p>&copy; {{ new Date().getFullYear() }} Meticuly. All rights reserved.</p>
+          </div>
+          <div class="text-sm mt-2">
+            <p>amhlaing@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 
