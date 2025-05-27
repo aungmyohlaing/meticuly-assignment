@@ -77,12 +77,12 @@ API_BASE=http://localhost:4000/api
 ### 3.Install Dependencies
 
 ## Backend
-cd backend
-npm install
+- cd backend
+- npm install
 
 ## Frontend
-cd frontend
-npm install
+- cd frontend
+- npm install
 
 ---
 
@@ -95,23 +95,23 @@ npm install
 
 ### 5.Run the Project (Dev Mode)
 ### Start Backend
-cd backend
-npm run dev
+- cd backend
+- npm run dev
 
 ### Start Frontend
-cd frontend
-npm run dev
+- cd frontend
+- npm run dev
 
 Visit the frontend at: http://localhost:3000
 
 ### Demo Login Account
-Admin User
-admin@meticuly.com
-admin123
+Admin User:
+- admin@meticuly.com
+- admin123
 
-Regular User
-john_doe@meticuly.com
-john123
+Regular User:
+- john_doe@meticuly.com
+- john123
 
 ---
 
