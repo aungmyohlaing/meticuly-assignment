@@ -85,8 +85,13 @@ const deleteCustomer = async () => {
         }
         close()
     } catch (error: any) {
-        toastRef.value?.showToast(error.message, 'error')
+        if (error.status === 403) {
+            toastRef.value?.showToast('You are not authorized to delete this customer', 'error')
+        } else {
+            toastRef.value?.showToast(error.message, 'error')
+        }
         console.log(error)
+        close()
     }
 }
 </script>

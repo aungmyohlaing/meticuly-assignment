@@ -33,7 +33,7 @@
                 </button>
                 <div class="flex space-x-2">
                   <button
-                    v-if="confirmed"
+                    v-if="confirmed && suggestedCustomers.length > 0"
                     type="button"
                     @click="resetConfirmation"
                     class="px-4 py-2 text-sm text-gray-500 hover:underline"
